@@ -1,6 +1,41 @@
 {
-  "plugins": [
-    "expo-font",
-    "expo-web-browser"
-  ]
+  "expo": {
+    "name": "Planet League",
+    "slug": "planet-league",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/stickers/generic_sticker.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/stickers/generic_sticker.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.vmplg.planetleague",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/stickers/generic_sticker.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/stickers/generic_sticker.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "94272f9f-33fa-4d06-996d-19b636229768"
+      }
+    },
+    "owner": "vmplg"
+  }
 }
