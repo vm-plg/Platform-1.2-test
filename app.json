@@ -25,7 +25,8 @@
       }
     },
     "web": {
-      "favicon": "./src/assets/stickers/generic_sticker.png"
+      "favicon": "./src/assets/stickers/generic_sticker.png",
+      "bundler": "webpack"
     },
     "plugins": [
       "expo-font",
