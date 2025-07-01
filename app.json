@@ -37,6 +37,7 @@
         "projectId": "94272f9f-33fa-4d06-996d-19b636229768"
       }
     },
-    "owner": "vmplg"
+    "owner": "vmplg",
+    "platforms": ["ios", "android", "web"]
   }
 }
